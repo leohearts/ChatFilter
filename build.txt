@@ -1,9 +1,9 @@
 displayName = Chat Filter
 author = leohearts
 version = 1.1.1.4
-homepage = https://example.com
+homepage = https://github.com/leohearts/ChatFilter
 hideCode = false
 hideResources = false
 includeSource = false
-buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.md, situation.png, fixed.png
+buildIgnore = *.csproj, *.user, obj/*, bin/*, *.md, Resources/*
 side = Client
