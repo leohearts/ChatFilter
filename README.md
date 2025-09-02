@@ -1,6 +1,6 @@
 # ChatFilter
 
-![Icon](https://raw.githubusercontent.com/leohearts/ChatFilter/1.4/icon.png)
+![Icon](https://raw.githubusercontent.com/leohearts/ChatFilter/1.4/icon_workshop.png)
 
 For those who want to take control of their chat!
 
