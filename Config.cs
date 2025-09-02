@@ -2,7 +2,7 @@
 using Terraria.ModLoader;
 using Terraria.ModLoader.Config;
 
-namespace ChatSource
+namespace ChatFilter
 {
 	public class Config : ModConfig
 	{
@@ -11,12 +11,6 @@ namespace ChatSource
 		public static Config Instance => ModContent.GetInstance<Config>();
 
 		[DefaultValue(true)]
-		public bool ChatSourceEnabled;
-
-		[DefaultValue(false)]
-		public bool DisplayTerrariaSource;
-
-		[DefaultValue(false)]
-		public bool ShowDisplayName;
+		public bool ChatFilterEnabled;
 	}
 }

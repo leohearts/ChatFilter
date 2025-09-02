@@ -8,9 +8,9 @@ using Terraria.GameContent.UI.Chat;
 using Terraria.ModLoader;
 using Terraria.UI.Chat;
 
-namespace ChatSource
+namespace ChatFilter
 {
-	public class ChatSource : Mod
+	public class ChatFilter : Mod
 	{
 		public override void Load()
 		{
@@ -74,7 +74,7 @@ namespace ChatSource
 		private static string GetCallingName(bool whitespace = false)
 		{
 			string name = string.Empty;
-			if (!Config.Instance.ChatSourceEnabled)
+			if (!Config.Instance.ChatFilterEnabled)
 				return string.Empty;
 
 			StackFrame[] frames/* = new StackFrame[1]*/;
@@ -88,13 +88,13 @@ namespace ChatSource
                at System.Diagnostics.StackTraceSymbols.GetSourceLineInfoWithoutCasAssert(String assemblyPath, IntPtr loadedPeAddress, Int32 loadedPeSize, IntPtr inMemoryPdbAddress, Int32 inMemoryPdbSize, Int32 methodToken, Int32 ilOffset, String& sourceFile, Int32& sourceLine, Int32& sourceColumn)
                at System.Diagnostics.StackFrameHelper.InitializeSourceInfo(Int32 iSkip, Boolean fNeedFileInfo, Exception exception)
                at System.Diagnostics.StackTrace.CaptureStackTrace(Int32 iSkip, Boolean fNeedFileInfo, Thread targetThread, Exception e)
-               at ChatSource.ChatSource.GetCallingName(Boolean whitespace) in ChatSource.cs:line 74
-               at ChatSource.ChatSource.ModifyLastChatMessage() in ChatSource.cs:line 51
-               at ChatSource.ChatSource.Main_NewText_string_byte_byte_byte_bool(orig_NewText_string_byte_byte_byte_bool orig, String newText, Byte R, Byte G, Byte B, Boolean force) in ChatSource.cs:line 47
+               at ChatFilter.ChatFilter.GetCallingName(Boolean whitespace) in ChatFilter.cs:line 74
+               at ChatFilter.ChatFilter.ModifyLastChatMessage() in ChatFilter.cs:line 51
+               at ChatFilter.ChatFilter.Main_NewText_string_byte_byte_byte_bool(orig_NewText_string_byte_byte_byte_bool orig, String newText, Byte R, Byte G, Byte B, Boolean force) in ChatFilter.cs:line 47
                at DMD<DMD<Hook<Terraria.Main::NewText>?34669516>?51491948::Hook<Terraria.Main::NewText>?34669516>(String , Byte , Byte , Byte , Boolean )
                at DMD<Terraria.Main::NewText>(String newText, Byte R, Byte G, Byte B, Boolean force)
                at DMD<DMD<Trampoline<Terraria.Main::NewText>?39771549>?45271378::Trampoline<Terraria.Main::NewText>?39771549>(String , Byte , Byte , Byte , Boolean )
-               at ChatSource.ChatSource.Main_NewText_string_byte_byte_byte_bool(orig_NewText_string_byte_byte_byte_bool orig, String newText, Byte R, Byte G, Byte B, Boolean force) in ChatSource.cs:line 46
+               at ChatFilter.ChatFilter.Main_NewText_string_byte_byte_byte_bool(orig_NewText_string_byte_byte_byte_bool orig, String newText, Byte R, Byte G, Byte B, Boolean force) in ChatFilter.cs:line 46
                at DMD<DMD<Hook<Terraria.Main::NewText>?34669516>?51491948::Hook<Terraria.Main::NewText>?34669516>(String , Byte , Byte , Byte , Boolean )
                at AlchemistNPC.AlchemistNPCPlayer.OnEnterWorld(Player player) in AlchemistNPCPlayer.cs:line 499
             */
@@ -166,7 +166,7 @@ namespace ChatSource
 			}
 			catch
 			{
-				//var logger = ModContent.GetInstance<ChatSource>().Logger;
+				//var logger = ModContent.GetInstance<ChatFilter>().Logger;
 				//logger.Info("#####");
 				//foreach (var frame in frames)
 				//{

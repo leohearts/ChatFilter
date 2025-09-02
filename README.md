@@ -1,6 +1,6 @@
-# ChatSource
+# ChatFilter
 
-![Icon](https://raw.githubusercontent.com/direwolf420/ChatSource/1.4/icon.png)
+![Icon](https://raw.githubusercontent.com/direwolf420/ChatFilter/1.4/icon.png)
 
 Terraria Forum link: https://forums.terraria.org/index.php?threads/chat-source-shows-the-source-of-messages-in-the-chat.86574/
 
@@ -8,7 +8,7 @@ For those who need to know which mod writes stuff to the chat!
 
 #### Common situation:
 
-![Situation](https://raw.githubusercontent.com/direwolf420/ChatSource/1.4/situation.png)
+![Situation](https://raw.githubusercontent.com/direwolf420/ChatFilter/1.4/situation.png)
 
 Shows the source of messages in the chat. Clientside, toggleable via config.
 
@@ -28,7 +28,7 @@ Shows the source of messages in the chat. Clientside, toggleable via config.
 "[AlchemistNPC] Player got 10 tier 1 Reversivity coins and now has 70 in total."
 ```
 
-![Fixed](https://raw.githubusercontent.com/direwolf420/ChatSource/1.4/fixed.png)
+![Fixed](https://raw.githubusercontent.com/direwolf420/ChatFilter/1.4/fixed.png)
 
 **Notes:**
 * Some stuff like ore spawn announcements in multiplayer will show no mod associated because those messages are serversided

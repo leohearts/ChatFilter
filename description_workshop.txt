@@ -18,7 +18,7 @@ Shows the source of messages in the chat. Clientside, toggleable via config
 - Toggle "Display Name" and "Internal Name" of a mod via config
 [hr][/hr]
 [b]Localization:[/b]
-If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/ChatSource]GitHub[/url][/b]
+If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/ChatFilter]GitHub[/url][/b]
 List of localization contributors:
 * Russian: [b]GodHybrid, Alino4kaHvoshch[/b]
 * Italian: [b]Sea Noodle[/b]

@@ -5,18 +5,8 @@ Mods: {
 				DisplayName: Config
 
 				ChatSourceEnabled: {
-					Label: Chat Source Enabled
+					Label: Chat Filter Enabled
 					Tooltip: If this mods' main feature should work
-				}
-
-				DisplayTerrariaSource: {
-					Label: Show Vanilla As Source
-					Tooltip: If messages from the vanilla game should be marked as such
-				}
-
-				ShowDisplayName: {
-					Label: Show 'Display Name'
-					Tooltip: If mods should show with their 'Display Name' or 'Internal Name'
 				}
 			}
 		}

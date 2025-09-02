@@ -1,9 +1,0 @@
-en-US, 7/7, 100%, missing 0
-de-DE, 7/7, 100%, missing 0
-it-IT, 7/7, 100%, missing 0
-fr-FR, 7/7, 100%, missing 0
-es-ES, 0/7, 0%, missing 7
-ru-RU, 7/7, 100%, missing 0
-zh-Hans, 7/7, 100%, missing 0
-pt-BR, 0/7, 0%, missing 7
-pl-PL, 0/7, 0%, missing 7

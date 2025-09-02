@@ -18,7 +18,7 @@ Notes:
 - "[Terraria]" prefix for vanilla messages is by default disabled
 - Toggle "Display Name" and "Internal Name" of a mod via config
 
-Localization: If you want to add support for different languages, you are welcome to contribute localizations here: https://github.com/direwolf420/ChatSource
+Localization: If you want to add support for different languages, you are welcome to contribute localizations here: https://github.com/direwolf420/ChatFilter
 List of localization contributors:
 * Russian: GodHybrid, Alino4kaHvoshch
 * Italian: Sea Noodle
