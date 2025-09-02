@@ -12,5 +12,10 @@ namespace ChatFilter
 
 		[DefaultValue(true)]
 		public bool ChatFilterEnabled;
+
+		[DefaultValue(true)]
+		public bool BlockEntireMessage;
+
+		public List<string> BlockedWords;
 	}
 }

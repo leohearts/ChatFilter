@@ -1,7 +1,7 @@
-displayName = Chat Source
-author = direwolf420
+displayName = Chat Filter
+author = leohearts
 version = 1.1.1.4
-homepage = https://forums.terraria.org/index.php?threads/chat-source-shows-the-source-of-messages-in-the-chat.86574/
+homepage = https://example.com
 hideCode = false
 hideResources = false
 includeSource = false
