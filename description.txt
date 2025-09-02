@@ -1,27 +1,17 @@
-For those who need to know which mod writes stuff to the chat!
+For those who want to take control of their chat!
 
-Shows the source of messages in the chat. Clientside, toggleable via config
-Example:
+Block unwantted words in the chat. Clientside, toggleable via config.
 
-Before:
-"Your world has been blessed with Cobalt!"
-"Player got 10 tier 1 Reversivity coins and now has 70 in total."
+Supports RegEx. Also supports blocking the whole message containing specific word.
 
-After:
-"Your world has been blessed with Cobalt!"
-"[AlchemistNPC] Player got 10 tier 1 Reversivity coins and now has 70 in total."
+Localization: If you want to add support for different languages, you are welcome to contribute localizations here: https://github.com/leohearts/ChatFilter
+
+Use cases
+
+- unfriendly people in multiplayer
+- unwantted mod messages, such as beta disclaimer and ads showing up every time world loads or switching between subworlds.
 
 
-Notes:
-- Some stuff like ore spawn announcements in multiplayer will show no mod associated because those messages are serversided
-- Death messages won't have an associated mod
-- "[Terraria]" prefix for vanilla messages is by default disabled
-- Toggle "Display Name" and "Internal Name" of a mod via config
+Credits
 
-Localization: If you want to add support for different languages, you are welcome to contribute localizations here: https://github.com/direwolf420/ChatFilter
-List of localization contributors:
-* Russian: GodHybrid, Alino4kaHvoshch
-* Italian: Sea Noodle
-* Simplified Chinese: Cyrilly
-* French: TheBrutalSkull
-* German: Lighty
+This is my first tModLoader mod. forked from direwolf420/ChatSource .
