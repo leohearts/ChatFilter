@@ -11,4 +11,27 @@ Mods: {
 			}
 		}
 	}
+
+	ChatFilter: {
+		Configs: {
+			Config: {
+				DisplayName: Config
+
+				ChatFilterEnabled: {
+					Label: Chat Filter Enabled
+					Tooltip: ""
+				}
+
+				BlockEntireMessage: {
+					Label: Block Entire Message
+					Tooltip: ""
+				}
+
+				BlockedWords: {
+					Label: Blocked Words (Case SEnSiTivE, supports RegEx)
+					Tooltip: ""
+				}
+			}
+		}
+	}
 }
